@@ -1,0 +1,57 @@
+GET http://httpbin.org/anything?id=0b9c37fb-ff73-4b9e-af8b-caa97c5e7f64&ts=1691376887
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-07T105448.200.json
+
+###
+
+# @no-redirect
+GET http://httpbin.org/status/301
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET https://httpbin.org/get?show_env=1
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-07T105444.200.json
+
+###
+
+GET https://httpbin.org/get?show_env=1
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-07T105440.200.json
+
+###
+
+GET https://httpbin.org/ip
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-07T105438.200.json
+
+###
+
+GET http://localhost:80/api/item?id=99
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-07T105407.404.html
+
+###
+
